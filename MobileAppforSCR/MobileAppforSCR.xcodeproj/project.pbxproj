@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AC086291E3AA0800098AB17 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC086281E3AA0800098AB17 /* iflyMSC.framework */; };
+		0AC0862B1E3AA0B40098AB17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC0862A1E3AA0B40098AB17 /* ViewController.swift */; };
+		0AC086301E3AA2BD0098AB17 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC0862F1E3AA2BD0098AB17 /* libz.tbd */; };
+		0AC086361E3AA2F50098AB17 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC086351E3AA2F50098AB17 /* SystemConfiguration.framework */; };
+		0AC0863C1E3AA3320098AB17 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC0863B1E3AA3320098AB17 /* CoreTelephony.framework */; };
 		483418F01E3821B7002DF2FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483418EF1E3821B7002DF2FE /* AppDelegate.swift */; };
-		483418F21E3821B7002DF2FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483418F11E3821B7002DF2FE /* ViewController.swift */; };
 		483418F51E3821B7002DF2FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483418F31E3821B7002DF2FE /* Main.storyboard */; };
 		483418F71E3821B7002DF2FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483418F61E3821B7002DF2FE /* Assets.xcassets */; };
 		483418FA1E3821B7002DF2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483418F81E3821B7002DF2FE /* LaunchScreen.storyboard */; };
@@ -34,9 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AC086281E3AA0800098AB17 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		0AC0862A1E3AA0B40098AB17 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AC0862D1E3AA0E80098AB17 /* bridging_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridging_header.h; sourceTree = "<group>"; };
+		0AC0862F1E3AA2BD0098AB17 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0AC086311E3AA2C40098AB17 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0AC086331E3AA2CF0098AB17 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0AC086351E3AA2F50098AB17 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0AC086371E3AA3040098AB17 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0AC086391E3AA3170098AB17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AC0863B1E3AA3320098AB17 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		483418EC1E3821B7002DF2FE /* MobileAppforSCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileAppforSCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		483418EF1E3821B7002DF2FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		483418F11E3821B7002DF2FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		483418F41E3821B7002DF2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		483418F61E3821B7002DF2FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		483418F91E3821B7002DF2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC0863C1E3AA3320098AB17 /* CoreTelephony.framework in Frameworks */,
+				0AC086361E3AA2F50098AB17 /* SystemConfiguration.framework in Frameworks */,
+				0AC086301E3AA2BD0098AB17 /* libz.tbd in Frameworks */,
+				0AC086291E3AA0800098AB17 /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AC0862C1E3AA0BE0098AB17 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0AC0862D1E3AA0E80098AB17 /* bridging_header.h */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		0AC0862E1E3AA2BC0098AB17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AC0863B1E3AA3320098AB17 /* CoreTelephony.framework */,
+				0AC086391E3AA3170098AB17 /* CoreGraphics.framework */,
+				0AC086371E3AA3040098AB17 /* QuartzCore.framework */,
+				0AC086351E3AA2F50098AB17 /* SystemConfiguration.framework */,
+				0AC086331E3AA2CF0098AB17 /* AVFoundation.framework */,
+				0AC086311E3AA2C40098AB17 /* AudioToolbox.framework */,
+				0AC0862F1E3AA2BD0098AB17 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		483418E31E3821B6002DF2FE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,7 @@
 				483419031E3821B7002DF2FE /* MobileAppforSCRTests */,
 				4834190E1E3821B7002DF2FE /* MobileAppforSCRUITests */,
 				483418ED1E3821B7002DF2FE /* Products */,
+				0AC0862E1E3AA2BC0098AB17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +137,10 @@
 		483418EE1E3821B7002DF2FE /* MobileAppforSCR */ = {
 			isa = PBXGroup;
 			children = (
+				0AC0862C1E3AA0BE0098AB17 /* SupportFiles */,
+				0AC086281E3AA0800098AB17 /* iflyMSC.framework */,
 				483418EF1E3821B7002DF2FE /* AppDelegate.swift */,
-				483418F11E3821B7002DF2FE /* ViewController.swift */,
+				0AC0862A1E3AA0B40098AB17 /* ViewController.swift */,
 				483418F31E3821B7002DF2FE /* Main.storyboard */,
 				483418F61E3821B7002DF2FE /* Assets.xcassets */,
 				483418F81E3821B7002DF2FE /* LaunchScreen.storyboard */,
@@ -259,7 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				483418F21E3821B7002DF2FE /* ViewController.swift in Sources */,
+				0AC0862B1E3AA0B40098AB17 /* ViewController.swift in Sources */,
 				483418F01E3821B7002DF2FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,10 +454,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobileAppforSCR",
+				);
 				INFOPLIST_FILE = MobileAppforSCR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Heritage-Chinese-Center.MobileAppforSCR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/bridging_header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +471,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobileAppforSCR",
+				);
 				INFOPLIST_FILE = MobileAppforSCR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Heritage-Chinese-Center.MobileAppforSCR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/bridging_header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +557,7 @@
 				483419161E3821B7002DF2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		483419171E3821B7002DF2FE /* Build configuration list for PBXNativeTarget "MobileAppforSCRTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +566,7 @@
 				483419191E3821B7002DF2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4834191A1E3821B7002DF2FE /* Build configuration list for PBXNativeTarget "MobileAppforSCRUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +575,7 @@
 				4834191C1E3821B7002DF2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
