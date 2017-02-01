@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let initString: String = "appid=588130db"        
+        //print(initString)
+        IFlySpeechUtility.createUtility(initString)
+        
+        
         return true
     }
 

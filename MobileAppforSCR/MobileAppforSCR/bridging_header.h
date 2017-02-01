@@ -11,5 +11,6 @@
 
 #import "iflyMSC/IFlyMSC.h"
 
+#import "ISRDataHelper.h"
 
 #endif /* bridging_header_h */
